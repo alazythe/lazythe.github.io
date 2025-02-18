@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>a lazy blog</title>
+    <description>a lazy blog
+</description>
+    <link>https://lazythe.github.io/</link>
+    <atom:link href="https://lazythe.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 18 Feb 2025 15:16:07 +0000</pubDate>
+    <lastBuildDate>Tue, 18 Feb 2025 15:16:07 +0000</lastBuildDate>
+    <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Beginning</title>
+        <description>&lt;p&gt;This marks the beginning of this blog.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
+        <link>https://lazythe.github.io/2025/02/beginning</link>
+        <guid isPermaLink="true">https://lazythe.github.io/2025/02/beginning</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
