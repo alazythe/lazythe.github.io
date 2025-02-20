@@ -6,8 +6,8 @@
 </description>
     <link>https://alazy.blog/</link>
     <atom:link href="https://alazy.blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Feb 2025 17:56:16 +0000</pubDate>
-    <lastBuildDate>Thu, 20 Feb 2025 17:56:16 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Feb 2025 17:57:11 +0000</pubDate>
+    <lastBuildDate>Thu, 20 Feb 2025 17:57:11 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -30,13 +30,13 @@
 
 &lt;p&gt;Take a good look at your current practices. Where could you be exposed? This could be anything from weak passwords to sharing too much online. Identifying these vulnerabilities is key to strengthening your defenses. I believe that the two key goals for maintaining effective OPSEC as a regular internet user are to limit information sharing and to utilize secure technology.&lt;/p&gt;
 
-&lt;h4 id=&quot;limit-information-sharing&quot;&gt;Limit Information Sharing&lt;/h4&gt;
+&lt;h4 id=&quot;1-limit-information-sharing&quot;&gt;1. Limit Information Sharing&lt;/h4&gt;
 
 &lt;p&gt;Start by adopting a need-to-know mindset when you’re posting or sharing online. Before you share something personal on social media, ask yourself if it’s really necessary. For example, while it might seem harmless to post about your upcoming vacation, that information can signal to others that your home will be empty. Think about who will see your posts and whether that’s who you want knowing your personal business.&lt;/p&gt;
 
 &lt;p&gt;Additionally, you can search for yourself online to see what information is publicly available. If you find any old posts or accounts that you no longer want out there, take the time to delete or update them. Also consider using a data removal service; there are countless online that will send requests on your behalf to have your personal information taken down from various websites and data brokers. You can find a list of services &lt;a href=&quot;https://docs.google.com/spreadsheets/d/10Vi38ZtHTyR0_LFEz-ON_RUH2ieT47z4/edit?pli=1&amp;amp;gid=1595621103#gid=1595621103&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h4 id=&quot;use-secure-technology&quot;&gt;Use Secure Technology&lt;/h4&gt;
+&lt;h4 id=&quot;2-use-secure-technology&quot;&gt;2. Use Secure Technology&lt;/h4&gt;
 
 &lt;h5 id=&quot;secure-messaging&quot;&gt;Secure Messaging&lt;/h5&gt;
 &lt;p&gt;When it comes to keeping your chats private, secure messaging apps are essential. Think of them as your digital fortresses, ensuring that your conversations stay confidential and are only visible to you and the people you trust.&lt;/p&gt;
@@ -62,17 +62,6 @@
         <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
         <link>https://alazy.blog/2025/02/opsec</link>
         <guid isPermaLink="true">https://alazy.blog/2025/02/opsec</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Beginning</title>
-        <description>&lt;p&gt;This marks the beginning of this blog.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
-        <link>https://alazy.blog/2025/02/beginning</link>
-        <guid isPermaLink="true">https://alazy.blog/2025/02/beginning</guid>
         
         
       </item>
