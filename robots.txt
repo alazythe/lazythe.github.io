@@ -1,1 +1,1 @@
-Sitemap: alazy.blog/sitemap.xml
+Sitemap: https://alazy.blog/sitemap.xml

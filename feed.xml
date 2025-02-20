@@ -4,10 +4,10 @@
     <title>a lazy blog</title>
     <description>a lazy blog
 </description>
-    <link>alazy.blog/</link>
-    <atom:link href="alazy.blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Feb 2025 16:34:16 +0000</pubDate>
-    <lastBuildDate>Thu, 20 Feb 2025 16:34:16 +0000</lastBuildDate>
+    <link>https://alazy.blog/</link>
+    <atom:link href="https://alazy.blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 20 Feb 2025 16:35:49 +0000</pubDate>
+    <lastBuildDate>Thu, 20 Feb 2025 16:35:49 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -45,8 +45,8 @@
 &lt;p&gt;Remember, OPSEC isn’t a one-and-done deal. Regularly check in on your practices and stay updated on new threats. Doing routine checks and drills can help everyone remember their role in keeping things secure.&lt;/p&gt;
 </description>
         <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-        <link>alazy.blog/2025/02/opsec</link>
-        <guid isPermaLink="true">alazy.blog/2025/02/opsec</guid>
+        <link>https://alazy.blog/2025/02/opsec</link>
+        <guid isPermaLink="true">https://alazy.blog/2025/02/opsec</guid>
         
         
       </item>
@@ -56,8 +56,8 @@
         <description>&lt;p&gt;This marks the beginning of this blog.&lt;/p&gt;
 </description>
         <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
-        <link>alazy.blog/2025/02/beginning</link>
-        <guid isPermaLink="true">alazy.blog/2025/02/beginning</guid>
+        <link>https://alazy.blog/2025/02/beginning</link>
+        <guid isPermaLink="true">https://alazy.blog/2025/02/beginning</guid>
         
         
       </item>
