@@ -6,8 +6,8 @@
 </description>
     <link>https://alazy.blog/</link>
     <atom:link href="https://alazy.blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Feb 2025 17:44:21 +0000</pubDate>
-    <lastBuildDate>Thu, 20 Feb 2025 17:44:21 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Feb 2025 17:50:22 +0000</pubDate>
+    <lastBuildDate>Thu, 20 Feb 2025 17:50:22 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -32,16 +32,21 @@
 
 &lt;h4 id=&quot;limit-information-sharing&quot;&gt;Limit Information Sharing&lt;/h4&gt;
 
-&lt;p&gt;Start by adopting a need-to-know mindset when you’re posting or sharing online. Before you share something personal on social media, ask yourself if it’s really necessary. For example, while it might seem harmless to post about your upcoming vacation, that information can signal to others that your home will be empty. Think about who will see your posts and whether that’s who you want knowing your personal business. Additionally, you can search for yourself online to see what information is publicly available. If you find any old posts or accounts that you no longer want out there, take the time to delete or update them. Also consider using a data removal service; there are countless online that will send requests on your behalf to have your personal information taken down from various websites and data brokers. You can find a list of services &lt;a href=&quot;https://docs.google.com/spreadsheets/d/10Vi38ZtHTyR0_LFEz-ON_RUH2ieT47z4/edit?pli=1&amp;amp;gid=1595621103#gid=1595621103&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Start by adopting a need-to-know mindset when you’re posting or sharing online. Before you share something personal on social media, ask yourself if it’s really necessary. For example, while it might seem harmless to post about your upcoming vacation, that information can signal to others that your home will be empty. Think about who will see your posts and whether that’s who you want knowing your personal business.&lt;/p&gt;
+
+&lt;p&gt;Additionally, you can search for yourself online to see what information is publicly available. If you find any old posts or accounts that you no longer want out there, take the time to delete or update them. Also consider using a data removal service; there are countless online that will send requests on your behalf to have your personal information taken down from various websites and data brokers. You can find a list of services &lt;a href=&quot;https://docs.google.com/spreadsheets/d/10Vi38ZtHTyR0_LFEz-ON_RUH2ieT47z4/edit?pli=1&amp;amp;gid=1595621103#gid=1595621103&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&quot;use-secure-technology&quot;&gt;Use Secure Technology&lt;/h4&gt;
 
 &lt;h5 id=&quot;secure-messaging&quot;&gt;Secure Messaging&lt;/h5&gt;
-&lt;p&gt;When it comes to keeping your chats private, secure messaging apps are essential. Think of them as your digital fortresses, ensuring that your conversations stay confidential and are only visible to you and the people you trust. &lt;a href=&quot;https://signal.org/&quot;&gt;Signal&lt;/a&gt; and &lt;a href=&quot;https://simplex.chat/&quot;&gt;SimpleX&lt;/a&gt; are some solid alternatives to WhatsApp if you’re willing to sacrifice some convenience for enhanced privacy and security.&lt;/p&gt;
+&lt;p&gt;When it comes to keeping your chats private, secure messaging apps are essential. Think of them as your digital fortresses, ensuring that your conversations stay confidential and are only visible to you and the people you trust.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://signal.org/&quot;&gt;Signal&lt;/a&gt; and &lt;a href=&quot;https://simplex.chat/&quot;&gt;SimpleX&lt;/a&gt; are some solid alternatives to WhatsApp if you’re willing to sacrifice some convenience for enhanced privacy and security.&lt;/p&gt;
 
 &lt;h5 id=&quot;virtual-private-networks-vpns&quot;&gt;Virtual Private Networks (VPNs)&lt;/h5&gt;
-&lt;p&gt;Next on the list is using a VPN. This nifty tool encrypts your internet connection and hides your IP address, especially useful when you’re on public Wi-Fi. So, if you’re chilling at a café and want to browse without worrying about hackers, a VPN is your best friend.
-&lt;a href=&quot;https://mullvad.net/&quot;&gt;Mullvad&lt;/a&gt; is a personal favorite of mine! Their servers never store any activity logs of any kind and payments can be done via cryptocurrencies like Monero.&lt;/p&gt;
+&lt;p&gt;Next on the list is using a VPN. This nifty tool encrypts your internet connection and hides your IP address, especially useful when you’re on public Wi-Fi. So, if you’re chilling at a café and want to browse without worrying about hackers, a VPN is your best friend.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mullvad.net/&quot;&gt;Mullvad&lt;/a&gt; is a personal favorite of mine! Their servers never store any activity logs of any kind and payments can be done via cryptocurrencies like Monero.&lt;/p&gt;
 
 &lt;h5 id=&quot;secure-password-managers&quot;&gt;Secure Password Managers&lt;/h5&gt;
 &lt;p&gt;Let’s face it: keeping track of passwords can be a nightmare. That’s where password managers like &lt;a href=&quot;https://keepassxc.org/&quot;&gt;KeePassXC&lt;/a&gt; come in. They store your passwords securely and even generate strong, unique ones for each of your accounts. Plus, many of them offer two-factor authentication (2FA), adding an extra layer of protection. It’s like having a personal security guard for your passwords!&lt;/p&gt;
