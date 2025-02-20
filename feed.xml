@@ -6,9 +6,50 @@
 </description>
     <link>https://lazythe.github.io/</link>
     <atom:link href="https://lazythe.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Feb 2025 16:36:53 +0000</pubDate>
-    <lastBuildDate>Tue, 18 Feb 2025 16:36:53 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Feb 2025 16:25:48 +0000</pubDate>
+    <lastBuildDate>Thu, 20 Feb 2025 16:25:48 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Opsec</title>
+        <description>&lt;p&gt;You’ve probably heard the phrase, “I have nothing to hide” at some point in your life. It’s a common response when people brush off concerns about privacy and security. But let’s be real—this mindset can be pretty risky in our digital age. That’s where Operational Security (OPSEC) comes in. It’s all about keeping your sensitive information safe from prying eyes. Let’s break down what OPSEC is, why it’s important, and how you can get started.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-opsec&quot;&gt;What is OPSEC?&lt;/h2&gt;
+
+&lt;p&gt;Operational Security, or OPSEC, is simply a fancy way of saying we need to protect our important information. It involves figuring out what you need to keep under wraps, understanding who might want to get their hands on it, and taking steps to keep it secure. OPSEC isn’t just for the military or big corporations; it’s something everyone should think about, especially when it comes to personal privacy and online safety.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-should-you-care-about-opsec&quot;&gt;Why Should You Care About OPSEC?&lt;/h2&gt;
+
+&lt;p&gt;Whether it’s your bank details, trade secrets, or personal stuff, losing control of your information can lead to some serious problems. No one wants that!&lt;/p&gt;
+
+&lt;p&gt;By knowing the potential threats out there, you can take steps to minimize them. It might mean tightening your online habits or beefing up your security measures.&lt;/p&gt;
+
+&lt;p&gt;If you run a business, showing that you care about OPSEC can go a long way in building trust with your customers. When people know their info is secure, they’re more likely to stick around.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-get-started-with-opsec&quot;&gt;How to Get Started with OPSEC&lt;/h2&gt;
+
+&lt;p&gt;Start by figuring out what information you really need to protect. This could be anything from financial records to personal details like passwords. Knowing what’s at stake is the first step!&lt;/p&gt;
+
+&lt;p&gt;Think about who might want to access this information and why. Are there cybercriminals lurking around? Or maybe competitors trying to get the inside scoop? Understanding your potential adversaries helps you defend against them.&lt;/p&gt;
+
+&lt;p&gt;Take a good look at your current practices. Where could you be exposed? This could be anything from weak passwords to sharing too much online. Identifying these vulnerabilities is key to strengthening your defenses.&lt;/p&gt;
+
+&lt;p&gt;Once you know what you need to protect and who might want it, it’s time to take action. Here are a few simple steps:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Secure Your Communication&lt;/strong&gt;: Use encrypted messaging apps and secure email services to keep conversations private.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Limit Access&lt;/strong&gt;: Only let people who really need access see sensitive information.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Educate Yourself and Others&lt;/strong&gt;: Share OPSEC tips with family and friends to keep everyone in the loop.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Remember, OPSEC isn’t a one-and-done deal. Regularly check in on your practices and stay updated on new threats. Doing routine checks and drills can help everyone remember their role in keeping things secure.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+        <link>https://lazythe.github.io/2025/02/opsec</link>
+        <guid isPermaLink="true">https://lazythe.github.io/2025/02/opsec</guid>
+        
+        
+      </item>
     
       <item>
         <title>Beginning</title>
