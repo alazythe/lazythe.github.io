@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>a lazy blog</title>
+    <meta
+        name="description"
+        content="Steps to Install MySQL 5.7 Manually"
+    />
+
+    <link
+        href="//fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin-ext,vietnamese"
+        rel="stylesheet"
+    />
+    <link
+        rel="stylesheet"
+        href="/css/main.css"
+    />
+    <link
+        rel="canonical"
+        href="https://alazy.blog/2025/02/mysql-5.7"
+    />
+    <link
+        rel="alternate"
+        type="application/rss+xml"
+        title="a lazy blog"
+        href="https://alazy.blog/feed.xml"
+    />
+    
+
+</head>
+
+    <body>
+        <main class="u-container">
+        <div class="c-page">
+		<article class="c-article">
+   	 	<header class="c-page__header">
+	<h1>a lazy blog
+</h1>
+	
+		<p>
+			<a href="/">&lt;&ndash;&ndash; Back</a
+		</p>
+	
+</header>
+
+    	<div class="c-article__main">
+        <article class="c-article">
+    <header class="c-article__header">
+        <h1 class="c-article__title">Installing MySQL 5.7 Without Apt</h1>
+        <p class="c-article__time"><time datetime="2025-02-25T00:00:00+00:00" itemprop="datePublished">Feb 25, 2025</time></p>
+    </header>
+    <div class="c-article__main">
+        <h2 id="steps-to-install-mysql-57-manually">Steps to Install MySQL 5.7 Manually</h2>
+
+<ol>
+  <li>
+    <p><strong>Download MySQL 5.7 Tarball</strong><br />
+Go to the <a href="https://dev.mysql.com/downloads/mysql/5.7.html">MySQL Community Downloads</a> page and download the correct tarball for your system.</p>
+  </li>
+  <li>
+    <p><strong>Extract the Tarball</strong><br />
+Use the following command to extract the downloaded tarball:
+```bash
+tar -xvzf mysql-5.7.x-linux-glibc2.12-x86_64.tar.gz</p>
+  </li>
+  <li>
+    <p><strong>Move to desired directory</strong>
+Move the extracted MySQL folder to your desired directory (for example, /usr/local/mysql):
+```bash
+sudo mv mysql-5.7.x-linux-glibc2.12-x86_64 /usr/local/mysql</p>
+  </li>
+  <li>
+    <p><strong>Create MySQL User and Group</strong>
+If the MySQL user and group don’t already exist, create them with the following commands:
+```bash
+sudo groupadd mysql
+sudo useradd -r -g mysql -s /bin/false mysql</p>
+  </li>
+  <li>
+    <p><strong>Set Permissions for MySQL Directory</strong>
+Set the correct ownership of the MySQL directory:
+```bash
+sudo chown -R mysql:mysql /usr/local/mysql</p>
+  </li>
+  <li>
+    <p><strong>Initialize the MySQL Data Directory</strong>
+Go into the MySQL directory and initialize the data directory:
+```bash
+cd /usr/local/mysql
+sudo ./bin/mysqld –initialize –user=mysql –datadir=/usr/local/mysql/data</p>
+  </li>
+  <li>
+    <p><strong>Remove Old Symlink (If Applicable)</strong>
+If you have a newer version of MySQL installed (e.g., MySQL 8.0), remove the old symlink and create a new one:
+```bash
+sudo rm /usr/bin/mysql
+sudo ln -s /usr/local/mysql/bin/mysql /usr/bin/mysql</p>
+  </li>
+  <li>
+    <p><strong>Verify</strong>
+```bash
+mysql –version</p>
+  </li>
+</ol>
+
+    </div>
+</article>
+
+    	</div>
+</article>
+
+        </main>
+    </body>
+</html>
