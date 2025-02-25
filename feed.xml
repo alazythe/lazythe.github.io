@@ -6,13 +6,15 @@
 </description>
     <link>https://alazy.blog/</link>
     <atom:link href="https://alazy.blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Feb 2025 15:56:04 +0000</pubDate>
-    <lastBuildDate>Tue, 25 Feb 2025 15:56:04 +0000</lastBuildDate>
+    <pubDate>Tue, 25 Feb 2025 15:57:51 +0000</pubDate>
+    <lastBuildDate>Tue, 25 Feb 2025 15:57:51 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
         <title>Installing MySQL 5.7 Without Apt</title>
-        <description>&lt;h2 id=&quot;steps-to-install-mysql-57-manually&quot;&gt;Steps to Install MySQL 5.7 Manually&lt;/h2&gt;
+        <description>&lt;p&gt;This is more a guide for me than for you because I am too stupid to fix GPG key deprication issues lol&lt;/p&gt;
+
+&lt;h2 id=&quot;steps-to-install-mysql-57-manually&quot;&gt;Steps to Install MySQL 5.7 Manually&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
