@@ -58,54 +58,64 @@
 
 <ol>
   <li>
-    <p><strong>Download MySQL 5.7 Tarball</strong><br />
-Go to the <a href="https://dev.mysql.com/downloads/mysql/5.7.html">MySQL Community Downloads</a> page and download the correct tarball for your system.</p>
+    <p><strong>Download MySQL 5.7 Tarball</strong></p>
+
+    <p>Go to the <a href="https://dev.mysql.com/downloads/mysql/5.7.html">MySQL Community Downloads</a> page and download the correct tarball for your system.</p>
   </li>
   <li>
-    <p><strong>Extract the Tarball</strong><br />
-Use the following command to extract the downloaded tarball:
-```bash
-tar -xvzf mysql-5.7.x-linux-glibc2.12-x86_64.tar.gz</p>
+    <p><strong>Extract the Tarball</strong></p>
+
+    <p>Use the following command to extract the downloaded tarball:</p>
+
+    <p><em>tar -xvzf mysql-5.7.x-linux-glibc2.12-x86_64.tar.gz</em></p>
   </li>
   <li>
-    <p><strong>Move to desired directory</strong>
-Move the extracted MySQL folder to your desired directory (for example, /usr/local/mysql):
-```bash
-sudo mv mysql-5.7.x-linux-glibc2.12-x86_64 /usr/local/mysql</p>
+    <p><strong>Move to desired directory</strong></p>
+
+    <p>Move the extracted MySQL folder to your desired directory (for example, /usr/local/mysql):</p>
+
+    <p><em>sudo mv mysql-5.7.x-linux-glibc2.12-x86_64 /usr/local/mysql</em></p>
   </li>
   <li>
-    <p><strong>Create MySQL User and Group</strong>
-If the MySQL user and group don’t already exist, create them with the following commands:
-```bash
-sudo groupadd mysql
-sudo useradd -r -g mysql -s /bin/false mysql</p>
+    <p><strong>Create MySQL User and Group</strong></p>
+
+    <p>If the MySQL user and group don’t already exist, create them with the following commands:</p>
+
+    <p><em>sudo groupadd mysql</em></p>
+
+    <p><em>sudo useradd -r -g mysql -s /bin/false mysql</em></p>
   </li>
   <li>
-    <p><strong>Set Permissions for MySQL Directory</strong>
-Set the correct ownership of the MySQL directory:
-```bash
-sudo chown -R mysql:mysql /usr/local/mysql</p>
+    <p><strong>Set Permissions for MySQL Directory</strong></p>
+
+    <p>Set the correct ownership of the MySQL directory:</p>
+
+    <p><em>sudo chown -R mysql:mysql /usr/local/mysql</em></p>
   </li>
   <li>
-    <p><strong>Initialize the MySQL Data Directory</strong>
-Go into the MySQL directory and initialize the data directory:
-```bash
-cd /usr/local/mysql
-sudo ./bin/mysqld –initialize –user=mysql –datadir=/usr/local/mysql/data</p>
+    <p><strong>Initialize the MySQL Data Directory</strong></p>
+
+    <p>Go into the MySQL directory and initialize the data directory:</p>
+
+    <p><em>cd /usr/local/mysql</em></p>
+
+    <p><em>sudo ./bin/mysqld –initialize –user=mysql –datadir=/usr/local/mysql/data</em></p>
   </li>
   <li>
-    <p><strong>Remove Old Symlink (If Applicable)</strong>
-If you have a newer version of MySQL installed (e.g., MySQL 8.0), remove the old symlink and create a new one:
-```bash
-sudo rm /usr/bin/mysql
-sudo ln -s /usr/local/mysql/bin/mysql /usr/bin/mysql</p>
+    <p><strong>Remove Old Symlink (If Applicable)</strong></p>
+
+    <p>If you have a newer version of MySQL installed (e.g., MySQL 8.0), remove the old symlink and create a new one:</p>
+
+    <p><em>sudo rm /usr/bin/mysql</em></p>
+
+    <p><em>sudo ln -s /usr/local/mysql/bin/mysql /usr/bin/mysql</em></p>
   </li>
   <li>
-    <p><strong>Verify</strong>
-```bash
-mysql –version</p>
+    <p><strong>Verify</strong></p>
   </li>
 </ol>
+
+<p><em>mysql –version</em></p>
 
     </div>
 </article>

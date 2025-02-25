@@ -6,8 +6,8 @@
 </description>
     <link>https://alazy.blog/</link>
     <atom:link href="https://alazy.blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Feb 2025 15:38:26 +0000</pubDate>
-    <lastBuildDate>Tue, 25 Feb 2025 15:38:26 +0000</lastBuildDate>
+    <pubDate>Tue, 25 Feb 2025 15:52:43 +0000</pubDate>
+    <lastBuildDate>Tue, 25 Feb 2025 15:52:43 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -16,54 +16,64 @@
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Download MySQL 5.7 Tarball&lt;/strong&gt;&lt;br /&gt;
-Go to the &lt;a href=&quot;https://dev.mysql.com/downloads/mysql/5.7.html&quot;&gt;MySQL Community Downloads&lt;/a&gt; page and download the correct tarball for your system.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Download MySQL 5.7 Tarball&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Go to the &lt;a href=&quot;https://dev.mysql.com/downloads/mysql/5.7.html&quot;&gt;MySQL Community Downloads&lt;/a&gt; page and download the correct tarball for your system.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Extract the Tarball&lt;/strong&gt;&lt;br /&gt;
-Use the following command to extract the downloaded tarball:
-```bash
-tar -xvzf mysql-5.7.x-linux-glibc2.12-x86_64.tar.gz&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Extract the Tarball&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Use the following command to extract the downloaded tarball:&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;tar -xvzf mysql-5.7.x-linux-glibc2.12-x86_64.tar.gz&lt;/em&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Move to desired directory&lt;/strong&gt;
-Move the extracted MySQL folder to your desired directory (for example, /usr/local/mysql):
-```bash
-sudo mv mysql-5.7.x-linux-glibc2.12-x86_64 /usr/local/mysql&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Move to desired directory&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Move the extracted MySQL folder to your desired directory (for example, /usr/local/mysql):&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;sudo mv mysql-5.7.x-linux-glibc2.12-x86_64 /usr/local/mysql&lt;/em&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Create MySQL User and Group&lt;/strong&gt;
-If the MySQL user and group don’t already exist, create them with the following commands:
-```bash
-sudo groupadd mysql
-sudo useradd -r -g mysql -s /bin/false mysql&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Create MySQL User and Group&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;If the MySQL user and group don’t already exist, create them with the following commands:&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;sudo groupadd mysql&lt;/em&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;sudo useradd -r -g mysql -s /bin/false mysql&lt;/em&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Set Permissions for MySQL Directory&lt;/strong&gt;
-Set the correct ownership of the MySQL directory:
-```bash
-sudo chown -R mysql:mysql /usr/local/mysql&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Set Permissions for MySQL Directory&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Set the correct ownership of the MySQL directory:&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;sudo chown -R mysql:mysql /usr/local/mysql&lt;/em&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Initialize the MySQL Data Directory&lt;/strong&gt;
-Go into the MySQL directory and initialize the data directory:
-```bash
-cd /usr/local/mysql
-sudo ./bin/mysqld –initialize –user=mysql –datadir=/usr/local/mysql/data&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Initialize the MySQL Data Directory&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Go into the MySQL directory and initialize the data directory:&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;cd /usr/local/mysql&lt;/em&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;sudo ./bin/mysqld –initialize –user=mysql –datadir=/usr/local/mysql/data&lt;/em&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Remove Old Symlink (If Applicable)&lt;/strong&gt;
-If you have a newer version of MySQL installed (e.g., MySQL 8.0), remove the old symlink and create a new one:
-```bash
-sudo rm /usr/bin/mysql
-sudo ln -s /usr/local/mysql/bin/mysql /usr/bin/mysql&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Remove Old Symlink (If Applicable)&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;If you have a newer version of MySQL installed (e.g., MySQL 8.0), remove the old symlink and create a new one:&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;sudo rm /usr/bin/mysql&lt;/em&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;sudo ln -s /usr/local/mysql/bin/mysql /usr/bin/mysql&lt;/em&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Verify&lt;/strong&gt;
-```bash
-mysql –version&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Verify&lt;/strong&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;&lt;em&gt;mysql –version&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
         <link>https://alazy.blog/2025/02/mysql-5.7</link>
